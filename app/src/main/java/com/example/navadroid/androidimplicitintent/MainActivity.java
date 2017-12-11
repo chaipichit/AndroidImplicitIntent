@@ -39,9 +39,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_intent_2:
                 // TODO: ???
+
+                intent.setAction(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:0962615027")); // set the Uri
+                startActivity(intent);
                 break;
             case R.id.btn_intent_3:
                 // TODO: ???
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("http://www.facebook.com"));
+                startActivity(intent);
                 break;
             case R.id.btn_intent_4:
                 // TODO: ???

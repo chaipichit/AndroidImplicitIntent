@@ -11,19 +11,19 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 1"
+        android:text="Open Gallery"
         android:id="@+id/btn_intent_1"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 2"
+        android:text="Call Man"
         android:id="@+id/btn_intent_2"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Intent 3"
+        android:text="Go To Facebook"
         android:id="@+id/btn_intent_3"/>
 
     <Button
